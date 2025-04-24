@@ -2,28 +2,28 @@ const pizzas = [
   {
     id: 1,
     nombre: "pizza de Muzzarella",
-    precio: 500,
+    precio: 9500,
     ingredientes: ["Muzzarella", "Tomate", "Aceitunas"],
   },
 
   {
     id: 2,
     nombre: "pizza de Cebolla",
-    precio: 1500,
+    precio: 13500,
     ingredientes: ["Muzzarella", "Tomate", "Cebolla"],
   },
 
   {
     id: 3,
     nombre: "pizza Napolitana",
-    precio: 1350,
+    precio: 15500,
     ingredientes: ["Muzzarella", "Tomate", "Aceitunas", "Anchoas"],
   },
 
   {
     id: 4,
     nombre: "pizza 4 Quesos",
-    precio: 1380,
+    precio: 14900,
     ingredientes: [
       "Muzzarella",
       "Tomate",
@@ -36,14 +36,14 @@ const pizzas = [
   {
     id: 5,
     nombre: "pizza Especial",
-    precio: 1000,
+    precio: 12000,
     ingredientes: ["Muzzarella", "Tomate", "Aceitunas", "Anchoas", "Cebolla"],
   },
 
   {
     id: 6,
     nombre: "pizza con Ananá",
-    precio: 600,
+    precio: 14000,
     ingredientes: ["Muzzarella", "Tomate", "Ananá"],
   },
 ];
@@ -63,12 +63,12 @@ pizzas.forEach(pizza => {
 
 // b) ¿Hay alguna pizza que valga menos de $600? 
 console.log("\n 🍕 b) ¿Hay alguna pizza que salga menos de $600?");
-const hayPizzaBarata = pizzas.some(pizza => pizza.precio < 600);
+const hayPizzaBarata = pizzas.some(pizza => pizza.precio < 10000);
 
 if (hayPizzaBarata) {
-  console.log("Siii, tenemos pizza a menos de $600 🙌🏻");
+  console.log("Siii, tenemos pizza a menos de $10000 🙌🏻");
 } else {
-  console.log("No, todas las pizzas salen más de $600 👎🏻");
+  console.log("No, todas las pizzas salen más de $10000 👎🏻");
 }
 
 ///////////////////////////////////////
